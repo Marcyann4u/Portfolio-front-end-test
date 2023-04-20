@@ -1,10 +1,69 @@
 main {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 main .main {
-  width: 1000px;
-  max-width: 920px;
   display: flex;
-  justify-content: space-between;
+}
+main .main div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .main {
+    margin: 0 1.5rem;
+    gap: 1.5rem;
+  }
+  .main .main-img {
+    min-width: 200px;
+  }
+  .main div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    max-width: 320px;
+  }
+  .main div h1 {
+    font-size: 2rem;
+  }
+  .main div p {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 801px) {
+  .main {
+    gap: 5rem;
+  }
+  .main .main-img {
+    max-width: 320px;
+    justify-content: space-between;
+  }
+  .main div {
+    max-width: 500px;
+  }
+  .main div h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 570px) {
+  .main {
+    flex-wrap: wrap;
+  }
+  .main .main-img {
+    min-width: 100%;
+  }
+  .main div {
+    max-width: 100%;
+  }
+  .main div h1 {
+    font-size: 8.5vw;
+  }
+  .main div p {
+    font-size: 5.5vw;
+  }
 }/*# sourceMappingURL=main.css.map */

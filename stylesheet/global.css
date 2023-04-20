@@ -24,14 +24,20 @@ a, a:visited {
 }
 
 ::-moz-selection {
-  background-color: rgb(241, 127, 127);
+  background-color: rgb(127, 173, 241);
 }
 
 ::selection {
-  background-color: rgb(241, 127, 127);
+  background-color: rgb(127, 173, 241);
 }
 
 div img {
   width: 100%;
   height: auto;
+}
+
+.centralized {
+  max-width: 920px;
+  width: 100%;
+  display: flex;
 }/*# sourceMappingURL=global.css.map */
