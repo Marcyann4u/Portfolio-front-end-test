@@ -1,0 +1,8 @@
+footer ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+footer ul li a svg {
+  width: 1.5rem;
+}/*# sourceMappingURL=footer.css.map */

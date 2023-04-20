@@ -1,0 +1,33 @@
+section#experiencia
+    display: flex
+    justify-content: center
+    .experiencia-container
+        flex-direction: row
+        h2
+            font-size: 3rem
+
+
+
+@media (max-width: 570px) 
+section#experiencia
+    flex-direction: column
+    h2
+        font-size: 7.5vw
+
+
+@media (max-width: 800px) 
+section#experiencia
+    .experiencia-container
+        flex-direction: column
+        flex-wrap: wrap
+        h2
+            font-size: 7.5vw
+
+@media (min-width: 801px) 
+section#experiencia
+    .experiencia-container
+        flex-direction: row
+
+        h2
+            font-size: 3rem
+    

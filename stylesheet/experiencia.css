@@ -1,0 +1,32 @@
+section#experiencia {
+  display: flex;
+  justify-content: center;
+}
+section#experiencia .experiencia-container {
+  flex-direction: row;
+}
+section#experiencia .experiencia-container h2 {
+  font-size: 3rem;
+}
+
+section#experiencia {
+  flex-direction: column;
+}
+section#experiencia h2 {
+  font-size: 7.5vw;
+}
+
+section#experiencia .experiencia-container {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+section#experiencia .experiencia-container h2 {
+  font-size: 7.5vw;
+}
+
+section#experiencia .experiencia-container {
+  flex-direction: row;
+}
+section#experiencia .experiencia-container h2 {
+  font-size: 3rem;
+}/*# sourceMappingURL=experiencia.css.map */
