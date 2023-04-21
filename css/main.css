@@ -1,0 +1,80 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+main .main {
+  display: flex;
+  gap: 5rem;
+}
+@media (max-width: 992px) {
+  main .main {
+    margin: 0 1.5rem;
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 570px) {
+  main .main {
+    flex-wrap: wrap;
+  }
+}
+main .main .main-img {
+  max-width: 320px;
+  justify-content: space-between;
+}
+@media (max-width: 992px) {
+  main .main .main-img {
+    min-width: 200px;
+  }
+}
+@media (max-width: 570px) {
+  main .main .main-img {
+    min-width: 100%;
+  }
+}
+main .main div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+}
+@media (max-width: 992px) {
+  main .main div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    max-width: 320px;
+  }
+}
+@media (max-width: 570px) {
+  main .main div {
+    min-width: 100%;
+  }
+}
+main .main div h1 {
+  max-width: 500px;
+  font-size: 3rem;
+}
+@media (max-width: 992px) {
+  main .main div h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 570px) {
+  main .main div h1 {
+    font-size: 6.25vw;
+  }
+}
+main .main div p {
+  font-size: 1.15rem;
+}
+@media (width: 992px) {
+  main .main div p {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 570px) {
+  main .main div p {
+    font-size: 5vw;
+  }
+}/*# sourceMappingURL=main.css.map */

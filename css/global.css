@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: #f5f5f5;
+  background: rgb(245, 245, 245);
 }
 
 ul, li {
@@ -37,7 +37,18 @@ div img {
 }
 
 .centralized {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+
+.centralized-container {
   max-width: 920px;
   width: 100%;
   display: flex;
+}
+@media (max-width: 992px) {
+  .centralized-container {
+    padding: 0 1.5rem;
+  }
 }/*# sourceMappingURL=global.css.map */
