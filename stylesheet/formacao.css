@@ -17,6 +17,7 @@
 }
 #formacao .formacao-container h2 {
   color: rgb(12, 12, 12);
+  line-height: 5.55rem;
   font-size: 98px;
   max-width: 230px;
   max-height: 483px;
@@ -36,7 +37,7 @@
 }
 #formacao .formacao-container .formacao-content .formacao-texto {
   max-width: 540px;
-  align-self: flex-end;
+  margin-left: 3.67rem;
   font-weight: 200;
 }
 #formacao .formacao-container .formacao-content .formacao-texto span {
@@ -45,6 +46,7 @@
 @media (max-width: 992px) {
   #formacao .formacao-container .formacao-content .formacao-texto {
     align-self: normal;
+    margin-left: 0;
   }
 }
 #formacao .formacao-container .formacao-content .cards {
@@ -87,4 +89,28 @@
   background: rgb(50, 115, 255);
   width: 4px;
   height: 1.3rem;
+}
+#formacao .formacao-container .card-cursos-idiomas {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#formacao .formacao-container .card-cursos-idiomas h3 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+#formacao .formacao-container .card-cursos-idiomas .c-curso {
+  margin: 0.75rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+#formacao .formacao-container .card-cursos-idiomas .c-curso .curso-duracao {
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+#formacao .formacao-container .card-cursos-idiomas .c-idiomas p {
+  margin: 0.5rem 0;
+}
+#formacao .formacao-container .card-cursos-idiomas .c-idiomas p span {
+  font-weight: 200;
 }/*# sourceMappingURL=formacao.css.map */

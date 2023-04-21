@@ -10,6 +10,7 @@
 }
 .experiencia-container h2 {
   color: rgb(224, 224, 224);
+  line-height: 5.55rem;
   font-size: 98px;
   max-width: 230px;
   max-height: 483px;
