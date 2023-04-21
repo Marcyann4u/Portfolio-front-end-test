@@ -1,13 +1,14 @@
 @import "./variables";
 
 footer {
+    margin: 0!important;
     background: $clr-black;
     color: $clr-whitesnow;
     border-top: solid 1px $clr-darken-gray;
     gap: 1rem;
     .footer-container{
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         justify-content: space-between;
         gap: 1rem;
         @media (max-width:992px) {
@@ -19,9 +20,24 @@ footer {
                 flex-wrap: wrap;
             }
         }
-        p a{
-            color: $clr-light-blue;
-            text-decoration: underline;;
+        .developed{
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+        p {
+            svg{
+                width: 1rem;
+                fill: $clr-whitesnow;
+            }
+            a{
+                color: $clr-light-blue;
+                text-decoration: underline;
+                transition: color .15s ease-in-out;
+            }
+        }
+        p a:hover{
+            color: $clr-blue;
         }
         ul{
             display: flex;
@@ -38,6 +54,18 @@ footer {
         }
         .footer-paragraph{
             max-width: 345px;
+        }
+        .footer-icons{
+            display: flex;
+            flex-direction: row;
+            svg{
+                width: 1.25rem;
+                fill: $clr-whitesnow;
+                transition: fill ease-in-out .3s;
+            }
+            svg:hover{
+                fill: $clr-blue;
+            }
         }
     }
 }

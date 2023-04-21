@@ -1,0 +1,20 @@
+@media (max-width: 672px) {
+  .experiencia-container {
+    flex-direction: column;
+  }
+}
+.experiencia-container h2 {
+  font-size: 98px;
+  max-width: 230px;
+  max-height: 483px;
+  word-break: break-all;
+}
+@media (max-width: 672px) {
+  .experiencia-container h2 {
+    font-size: 3rem;
+    max-width: 100%;
+  }
+}
+.experiencia-container .experiencia-descricao span {
+  font-weight: bolder;
+}/*# sourceMappingURL=experiencia.css.map */

@@ -1,12 +1,13 @@
 footer {
+  margin: 0 !important;
   background: rgb(12, 12, 12);
   color: rgb(245, 245, 245);
   border-top: solid 1px rgb(36, 36, 36);
   gap: 1rem;
 }
 footer .footer-container {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   justify-content: space-between;
   gap: 1rem;
 }
@@ -21,9 +22,22 @@ footer .footer-container {
     flex-wrap: wrap;
   }
 }
+footer .footer-container .developed {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+footer .footer-container p svg {
+  width: 1rem;
+  fill: rgb(245, 245, 245);
+}
 footer .footer-container p a {
   color: rgb(127, 173, 241);
   text-decoration: underline;
+  transition: color 0.15s ease-in-out;
+}
+footer .footer-container p a:hover {
+  color: rgb(50, 115, 255);
 }
 footer .footer-container ul {
   display: flex;
@@ -40,4 +54,16 @@ footer .footer-container .developed {
 }
 footer .footer-container .footer-paragraph {
   max-width: 345px;
+}
+footer .footer-container .footer-icons {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer-container .footer-icons svg {
+  width: 1.25rem;
+  fill: rgb(245, 245, 245);
+  transition: fill ease-in-out 0.3s;
+}
+footer .footer-container .footer-icons svg:hover {
+  fill: rgb(50, 115, 255);
 }/*# sourceMappingURL=footer.css.map */
