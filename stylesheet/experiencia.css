@@ -9,6 +9,7 @@
   }
 }
 .experiencia-container h2 {
+  color: rgb(224, 224, 224);
   font-size: 98px;
   max-width: 230px;
   max-height: 483px;
@@ -16,6 +17,7 @@
 }
 @media (max-width: 672px) {
   .experiencia-container h2 {
+    color: rgb(12, 12, 12);
     font-size: 11vw;
     max-width: 100%;
   }

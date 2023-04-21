@@ -1,0 +1,36 @@
+#formacao{
+    display: flex;
+    justify-content: center;
+    .formacao-container{
+        flex-direction: column;
+        @media (max-width:800px) {
+            padding:0 1.5rem ;
+        }
+        .formacao-content{
+            display: flex;
+            gap: 1rem;
+        }
+        .card-experiencia{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(34, 34, 34);
+            min-width: 270px;
+            padding: 1rem;
+            gap: 1rem;
+            h3, .exp-local{
+                color: #c4c4c4;
+                font-size: .7rem;
+            }
+            p{
+                align-self: flex-end;
+                font-size: 1rem;
+                color: #fff;
+            }
+        }
+
+
+
+
+    }
+
+}

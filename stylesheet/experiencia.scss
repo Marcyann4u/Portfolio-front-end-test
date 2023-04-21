@@ -8,11 +8,13 @@
         flex-direction: column;
     }
     h2{
+        color: $clr-light-gray;
         font-size: max(98px);
         max-width: 230px;
         max-height: 483px;
         word-break: break-all;
         @media (max-width:672px) {
+            color: $clr-black;
             font-size: 11vw;
             max-width: 100%;
         }
@@ -108,7 +110,5 @@
                 }
             }
         }
-        
-        
     }    
 }

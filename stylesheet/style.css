@@ -1,3 +1,6 @@
-@import ".././css/style.css";
-
+@import "./global.css";
+@import "./header.css";
+@import "./main.css";
+@import "./experiencia.css";
 @import "./formacao.css";
+@import "./footer.css";

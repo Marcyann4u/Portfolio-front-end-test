@@ -1,33 +1,90 @@
 #formacao {
-  display: flex;
-  justify-content: center;
+  color: rgb(245, 245, 245);
+  margin: 0;
+  background: rgb(19, 19, 19);
 }
 #formacao .formacao-container {
-  flex-direction: column;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
 }
-@media (max-width: 800px) {
+@media (max-width: 672px) {
   #formacao .formacao-container {
-    padding: 0 1.5rem;
+    flex-direction: column;
+  }
+}
+#formacao .formacao-container h2 {
+  color: rgb(12, 12, 12);
+  font-size: 98px;
+  max-width: 230px;
+  max-height: 483px;
+  word-break: break-all;
+}
+@media (max-width: 672px) {
+  #formacao .formacao-container h2 {
+    color: rgb(245, 245, 245);
+    font-size: 11vw;
+    max-width: 100%;
   }
 }
 #formacao .formacao-container .formacao-content {
   display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+#formacao .formacao-container .formacao-content .formacao-texto {
+  max-width: 540px;
+  align-self: flex-end;
+  font-weight: 200;
+}
+#formacao .formacao-container .formacao-content .formacao-texto span {
+  font-weight: 500;
+}
+@media (max-width: 992px) {
+  #formacao .formacao-container .formacao-content .formacao-texto {
+    align-self: normal;
+  }
+}
+#formacao .formacao-container .formacao-content .cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
   gap: 1rem;
 }
-#formacao .formacao-container .card-experiencia {
+@media (max-width: 992px) {
+  #formacao .formacao-container .formacao-content .cards {
+    flex-direction: row;
+  }
+}
+#formacao .formacao-container .formacao-content .cards .card-experiencia {
   display: flex;
   flex-direction: column;
-  background-color: rgb(34, 34, 34);
-  min-width: 270px;
-  padding: 1rem;
   gap: 1rem;
+  max-width: 300px;
+  padding: 1rem;
+  width: calc(50% - 2rem);
+  background-color: rgb(12, 12, 12);
 }
-#formacao .formacao-container .card-experiencia h3, #formacao .formacao-container .card-experiencia .exp-local {
-  color: #c4c4c4;
-  font-size: 0.7rem;
+@media (max-width: 672px) {
+  #formacao .formacao-container .formacao-content .cards .card-experiencia {
+    min-width: 100%;
+  }
 }
-#formacao .formacao-container .card-experiencia p {
-  align-self: flex-end;
-  font-size: 1rem;
-  color: #fff;
+#formacao .formacao-container .formacao-content .cards .card-experiencia h3, #formacao .formacao-container .formacao-content .cards .card-experiencia .exp-local {
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+#formacao .formacao-container .formacao-content .cards .card-experiencia .graduacao {
+  position: relative;
+}
+#formacao .formacao-container .formacao-content .cards .card-experiencia .graduacao::before {
+  content: "";
+  position: absolute;
+  top: 0rem;
+  left: -1.3rem;
+  background: rgb(50, 115, 255);
+  width: 4px;
+  height: 1.3rem;
 }/*# sourceMappingURL=formacao.css.map */
