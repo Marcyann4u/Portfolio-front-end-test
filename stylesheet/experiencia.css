@@ -107,6 +107,10 @@
     min-width: 100%;
   }
 }
+.experiencia-container .experiencia-content .card-container .card-experiencia .c-curso {
+  display: flex;
+  gap: 2rem;
+}
 .experiencia-container .experiencia-content .card-container .card-experiencia .card-cargo {
   display: flex;
   flex-direction: column;
