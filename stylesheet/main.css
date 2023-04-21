@@ -20,6 +20,9 @@ main .main .main-img {
   max-width: 320px;
   justify-content: space-between;
 }
+main .main .main-img img {
+  border-radius: 0.5rem;
+}
 @media (max-width: 992px) {
   main .main .main-img {
     min-width: 200px;
