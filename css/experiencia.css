@@ -1,3 +1,8 @@
+.experiencia-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
 @media (max-width: 672px) {
   .experiencia-container {
     flex-direction: column;
@@ -11,10 +16,106 @@
 }
 @media (max-width: 672px) {
   .experiencia-container h2 {
-    font-size: 3rem;
+    font-size: 11vw;
     max-width: 100%;
   }
 }
+.experiencia-container .experiencia-descricao {
+  font-size: 1.2rem;
+  align-self: flex-end;
+  max-width: 600px;
+}
 .experiencia-container .experiencia-descricao span {
   font-weight: bolder;
+}
+.experiencia-container .experiencia-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.experiencia-container .experiencia-content .card-container {
+  align-self: flex-end;
+  width: 100%;
+  display: flex;
+}
+@media (max-width: 672px) {
+  .experiencia-container .experiencia-content .card-container {
+    width: 100%;
+  }
+}
+.experiencia-container .experiencia-content .card-container .year {
+  margin-top: 1.1rem;
+}
+@media (max-width: 672px) {
+  .experiencia-container .experiencia-content .card-container .year {
+    display: none;
+  }
+}
+.experiencia-container .experiencia-content .card-container .year::after {
+  content: "";
+  border-right: 4px solid rgb(50, 115, 255);
+  margin-left: 1rem;
+}
+.experiencia-container .experiencia-content .card-container .card-experiencia {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  background: rgb(224, 224, 224);
+}
+@media (max-width: 450px) {
+  .experiencia-container .experiencia-content .card-container .card-experiencia {
+    flex-wrap: wrap;
+  }
+}
+.experiencia-container .experiencia-content .card-container .card-experiencia .card-projeto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 300px;
+}
+.experiencia-container .experiencia-content .card-container .card-experiencia .card-projeto :last-child {
+  display: none;
+}
+@media (max-width: 672px) {
+  .experiencia-container .experiencia-content .card-container .card-experiencia .card-projeto :last-child {
+    display: block;
+  }
+}
+@media (max-width: 672px) {
+  .experiencia-container .experiencia-content .card-container .card-experiencia .card-projeto h3 {
+    position: relative;
+  }
+  .experiencia-container .experiencia-content .card-container .card-experiencia .card-projeto h3::before {
+    content: "";
+    position: absolute;
+    top: 0rem;
+    left: -1.25rem;
+    background: rgb(50, 115, 255);
+    width: 4px;
+    height: 1.5rem;
+  }
+  .experiencia-container .experiencia-content .card-container .card-experiencia .card-projeto p {
+    min-width: 230px;
+  }
+}
+@media (max-width: 672px) and (max-width: 450px) {
+  .experiencia-container .experiencia-content .card-container .card-experiencia .card-projeto p {
+    min-width: 100%;
+  }
+}
+.experiencia-container .experiencia-content .card-container .card-experiencia .card-cargo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.experiencia-container .experiencia-content .card-container .card-experiencia .card-cargo ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.experiencia-container .experiencia-content .card-container .card-experiencia .card-cargo ul li {
+  background-color: rgb(255, 255, 255);
+  padding: 0.3rem;
+  border-radius: 0.25rem;
 }/*# sourceMappingURL=experiencia.css.map */
