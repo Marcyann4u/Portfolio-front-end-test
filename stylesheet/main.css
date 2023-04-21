@@ -1,9 +1,16 @@
 main {
   display: flex;
   justify-content: center;
+  height: calc(90vh - 5rem);
+}
+@media (max-width: 992px) {
+  main {
+    height: auto;
+  }
 }
 main .main {
   display: flex;
+  align-items: center;
   gap: 5rem;
 }
 @media (max-width: 992px) {

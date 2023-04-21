@@ -3,8 +3,13 @@
 main{
     display: flex;
     justify-content: center;
+    height:calc(90vh - 5rem);
+    @media (max-width:992px) {
+        height:auto;
+    }
     .main{
         display: flex;
+        align-items: center;;
         gap: 5rem;
         @media (max-width:992px) {
             gap: 1.5rem;
