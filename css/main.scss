@@ -7,7 +7,6 @@ main{
         display: flex;
         gap: 5rem;
         @media (max-width:992px) {
-            margin: 0 1.5rem;
             gap: 1.5rem;
         }
         @media (max-width:570px) {
@@ -42,21 +41,16 @@ main{
                 max-width: 500px;
                 font-size: 3rem;
                 @media (max-width:992px) {
-                    font-size: 2rem;
-                }
-                @media (max-width:570px) {
-                    font-size: 6.25vw
+                    font-size: 5.75vw;
                 }
             }
         
             p{
                 font-size: 1.15rem;
                 @media (width:992px) {
-                    font-size: 1.25rem;
+                    font-size: 5vw;
                 }
-                @media (max-width:570px) {
-                    font-size: 5vw
-                }
+
             }
         }
     }

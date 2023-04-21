@@ -1,1 +1,43 @@
-/*# sourceMappingURL=footer.css.map */
+footer {
+  background: rgb(12, 12, 12);
+  color: rgb(245, 245, 245);
+  border-top: solid 1px rgb(36, 36, 36);
+  gap: 1rem;
+}
+footer .footer-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: space-between;
+  gap: 1rem;
+}
+@media (max-width: 992px) {
+  footer .footer-container {
+    flex-wrap: wrap;
+    margin: 0 1.5rem;
+  }
+  footer .footer-container .footer-contacts {
+    flex-direction: row;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+  }
+}
+footer .footer-container p a {
+  color: rgb(127, 173, 241);
+  text-decoration: underline;
+}
+footer .footer-container ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+footer .footer-container div {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+footer .footer-container .developed {
+  font-size: 0.9rem;
+}
+footer .footer-container .footer-paragraph {
+  max-width: 345px;
+}/*# sourceMappingURL=footer.css.map */
